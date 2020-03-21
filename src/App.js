@@ -96,6 +96,7 @@ class App extends Component {
                                 noteId={note.noteId}
                                 key={note.noteId}
                                 deleteNote={this.removeNote}
+                                number={this.state.notes.length}
                             />
                         );
                     })}
